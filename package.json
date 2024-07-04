@@ -1,6 +1,6 @@
 {
   "name": "hong-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于ant-design搭建的组件库",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
