@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "hong-design": ["src/index.ts"],
+      "docs":["docs/*"]
+    }
+  },
+  "include": [".dumirc.ts", "**/*.ts", "**/*.tsx"]
+}
