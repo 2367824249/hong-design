@@ -5,7 +5,7 @@ export type HongButtonClick = (value:{
   triggerLoading:()=>void
 })=>void
 
-interface HongButtonProps extends Omit<ButtonProps, 'onClick'> { 
+export interface HongButtonProps extends Omit<ButtonProps, 'onClick'> { 
   onClick?:HongButtonClick
 }
 const HongButton:React.FC<HongButtonProps> = ({ onClick, ...props }) => {

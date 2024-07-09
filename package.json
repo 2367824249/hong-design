@@ -4,7 +4,11 @@
   "description": "基于ant-design搭建的组件库",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "keywords": ["range-input", "number-input", "page-select"],
+  "keywords": [
+    "range-input",
+    "number-input",
+    "page-select"
+  ],
   "scripts": {
     "start": "npm run dev",
     "dev": "dumi dev",

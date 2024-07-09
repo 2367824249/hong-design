@@ -23,3 +23,6 @@ export { default as HTextInput } from './input/text-input'
 
 export type { RangeInputProps as HRangeInputProps, RangeInputValue as HRangeInputValue } from './input/range-input'
 export { default as HRangInput, } from './input/range-input'
+
+export { default as HSearchForm } from './search-form'
+export type { SearchFormProps as HSearchFormProps } from './search-form'
