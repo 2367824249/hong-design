@@ -1,0 +1,26 @@
+.enter-active,
+.leave-active {
+  color: red;
+  transition: all 0.3s;
+}
+
+.enter-from {
+  transform: translateX(-20px);
+}
+
+.enter-to {
+  transform: translateX(0px);
+}
+
+.leave-from {
+  transform: translateX(0px);
+}
+
+.leave-to {
+  transform: translateX(20px);
+}
+
+.enter-from,
+.leave-to {
+  color: black;
+}

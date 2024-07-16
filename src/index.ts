@@ -26,3 +26,4 @@ export { default as HRangInput, } from './input/range-input'
 
 export { default as HSearchForm } from './search-form'
 export type { SearchFormProps as HSearchFormProps } from './search-form'
+export { default as Transition } from './transition'
